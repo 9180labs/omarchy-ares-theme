@@ -1,0 +1,83 @@
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#1a0000"
+
+# Main text color
+theme[main_fg]="#ffcccc"
+
+# Title color for boxes
+theme[title]="#ffcccc"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#ff0000"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#440000"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#ff0000"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#cc6666"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="#ff6666"
+
+# Background color of the percentage meters
+theme[meter_bg]="#440000"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#ff6666"
+
+# CPU, Memory, Network, Proc box outline colors
+theme[cpu_box]="#ff0000" #Red
+theme[mem_box]="#ff6666" #Light Red
+theme[net_box]="#ff0000" #Red
+theme[proc_box]="#ff6666" #Light Red
+
+# Box divider line and small boxes line color
+theme[div_line]="#cc6666"
+
+# Temperature graph color (Light Red -> Orange -> Dark Red)
+theme[temp_start]="#ff6666"
+theme[temp_mid]="#ffaa66"
+theme[temp_end]="#cc0000"
+
+# CPU graph colors (Light Red -> Pink -> Red)
+theme[cpu_start]="#ff6666"
+theme[cpu_mid]="#ff66aa"
+theme[cpu_end]="#ff0000"
+
+# Mem/Disk free meter (Pink -> Light Red -> Red)
+theme[free_start]="#ff66aa"
+theme[free_mid]="#ff6666"
+theme[free_end]="#ff0000"
+
+# Mem/Disk cached meter (Light Red -> Red -> Pink)
+theme[cached_start]="#ff6666"
+theme[cached_mid]="#ff0000"
+theme[cached_end]="#ff66aa"
+
+# Mem/Disk available meter (Orange -> Light Red -> Dark Red)
+theme[available_start]="#ffaa66"
+theme[available_mid]="#ff6666"
+theme[available_end]="#cc0000"
+
+# Mem/Disk used meter (Light Red -> Pink)
+theme[used_start]="#ff6666"
+theme[used_mid]="#ff66aa"
+theme[used_end]="#ff66aa"
+
+# Download graph colors (Orange -> Light Red -> Dark Red)
+theme[download_start]="#ffaa66"
+theme[download_mid]="#ff6666"
+theme[download_end]="#cc0000"
+
+# Upload graph colors (Light Red -> Pink)
+theme[upload_start]="#ff6666"
+theme[upload_mid]="#ff66aa"
+theme[upload_end]="#ff66aa"
+
+# Process box color gradient for threads, mem and cpu usage (Light Red -> Pink -> Red)
+theme[process_start]="#ff6666"
+theme[process_mid]="#ff66aa"
+theme[process_end]="#ff0000"
