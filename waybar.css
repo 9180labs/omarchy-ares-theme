@@ -1,2 +1,6 @@
 @define-color foreground #ffffff;
 @define-color background #000000;
+@define-color accent #FF1A1A;
+@define-color dark-gray #2A2A2A;
+@define-color muted-gray #404040;
+@define-color dim-gray #808080;
